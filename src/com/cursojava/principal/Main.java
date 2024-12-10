@@ -9,7 +9,7 @@ import java.util.Random;
 /**
  * 
  * @author Juan Luis Guerra Gennich
- * @version 1.1.0 10/12/2024
+ * @version 1.1.1 10/12/2024
  */
 public class Main {
 
@@ -17,7 +17,7 @@ public class Main {
 		Random rnd = new Random();
 
 		Vehiculo coche = new Coche("2222JLG", "rojo", 5, TipoVehiculo.MOTOR_HIBRIDO);
-		Vehiculo camion = new Camion("3333GLJ", "azul", 3, TipoVehiculo.MOTOR_COMBUSTIBLE);
+		Vehiculo camion = new Camion("1234GLJ", "azul", 3, TipoVehiculo.MOTOR_COMBUSTIBLE);
 		Vehiculo[] vehiculos = { coche, camion };
 
 		for (Vehiculo vehiculo : vehiculos) {

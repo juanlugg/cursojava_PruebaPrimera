@@ -3,7 +3,7 @@ package com.cursojava.modelo;
 /**
  * 
  * @author Juan Luis Guerra Gennich
- * @version 1.1.0 10/12/2024
+ * @version 1.1.1 10/12/2024
  */
 public class Coche extends Vehiculo {
 	public static final int N_RUEDAS = 4;

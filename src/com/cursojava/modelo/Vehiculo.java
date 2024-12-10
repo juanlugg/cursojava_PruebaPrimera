@@ -3,7 +3,7 @@ package com.cursojava.modelo;
 /**
  * 
  * @author Juan Luis Guerra Gennich
- * @version 1.1.0 10/12/2024
+ * @version 1.1.1 10/12/2024 
  * Clase que implementa las funciones de la interfaz Conducible ya que todos los Vehiculos son Conducibles
  */
 public abstract class Vehiculo implements Conducible {
