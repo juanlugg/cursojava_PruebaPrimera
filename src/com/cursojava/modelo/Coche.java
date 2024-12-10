@@ -3,20 +3,18 @@ package com.cursojava.modelo;
 /**
  * 
  * @author Juan Luis Guerra Gennich
- * @version 1.0.0 04/12/2024
+ * @version 1.1.0 10/12/2024
  */
 public class Coche extends Vehiculo {
+	public static final int N_RUEDAS = 4;
 
 	public Coche(String matricula, String color, int asientos, TipoVehiculo tipo) {
 		super(matricula, color, asientos, tipo);
 	}
 
-	public final int N_RUEDAS = 4;
-
 	@Override
 	public void arrancar() {
-		super.arrancar();
-		System.out.println("El coche de matricula " + matricula);
+		System.out.println("El coche de matricula " + matricula + " está arrancado.");
 
 	}
 
@@ -35,7 +33,6 @@ public class Coche extends Vehiculo {
 
 	@Override
 	public void parar() {
-		super.parar();
 		System.out.println(
 				"El coche de matricula " + matricula + " ha parado en " + this.metros + " metros de distancia.");
 	}
